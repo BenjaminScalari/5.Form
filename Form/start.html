@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <!--  MAIL E PASSWORD -->
+      <div>
+        <span>Mail</span>
+        <input type="email" placeholder="Mail" required>
+        <span>Password</span>
+        <input type="password" placeholder="Password" minlength="6" required>
+      </div>
+      <!-- NOME E COGNOME -->
+      <div>
+        <span>Nome</span>
+        <input type="text" placeholder="Nome" required>
+        <span>Cognome</span>
+        <input type="text" placeholder="Cognome" required>
+      </div>
+      <!-- DATA DI NASCITA -->
+      <div>
+        <span>Data di nascita</span>
+        <input type="date" name="birthday" required>
+      </div>
+      <!-- NUMERO DI TELEFONO -->
+      <div>
+        <span>Numero di telefono</span>
+        <input type="tel" placeholder="123-456-78-90" required>
+      </div>
+      <!-- TIPO DI ISCRIZIONE -->
+      <div>
+        <span>Tipo d'iscrizione:</span>
+        <input type="radio" name="subscription-type">Gratis
+        <input type="radio" name="subscription-type">5,99€/mese
+        <input type="radio" name="subscription-type">53,91€/anno (-25%)
+      </div>
+      <!-- PRO -->
+      <div>
+        <span>Sblocca subito tutte le funzionalità aggiuntive</span>
+        <input type="checkbox">PRO Features (+10€)
+      </div>
+      <!-- CARTA DI CREDITO -->
+      <div>
+        <span>Carta di credito</span>
+        <input type="text" placeholder="Numero" required>
+        <input type="number" placeholder="CVC" min="0" max="999" required>
+        <span>Scadenza</span>
+        <input type="date" required>
+      </div>
+      <!-- INDIRIZZO -->
+      <div>
+        <span>Indirizzo di spedizione</span>
+        <input type="text" placeholder="Indirizzo" required>
+      </div>
+      <!-- TASTO REGISTRATI -->
+      <div>
+        <button>Registrati</button>
+      </div>
+    </form>
+  </body>
+</html>
